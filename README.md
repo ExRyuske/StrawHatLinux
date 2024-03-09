@@ -1,6 +1,6 @@
 # StrawHatLinux
-My Arch Linux configuration
-### Install
+My SteamOS configuration
+### Install (need to update)
 ```
 sudo pacman -S git --needed
 git clone https://github.com/ExRyuske/StrawHatLinux.git
