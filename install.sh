@@ -1,6 +1,3 @@
-passwd
-sudo steamos-readonly disable
-
 #Pacman + Paru + Chaotic-AUR
 sudo rm -fr /etc/pacman.d/gnupg
 sudo pacman-key --init

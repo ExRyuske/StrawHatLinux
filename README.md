@@ -2,11 +2,21 @@
 My SteamOS configuration
 ### Install (need to update)
 ```
-sudo pacman -S git --needed
-git clone https://github.com/ExRyuske/StrawHatLinux.git
+passwd
+sudo steamos-readonly disable
+
 chmod -R 777 StrawHatLinux/install.sh
 StrawHatLinux/install.sh
 ```
+
+### Update (need to update)
+```
+sudo steamos-readonly disable
+
+chmod -R 777 StrawHatLinux/update.sh
+StrawHatLinux/update.sh
+```
+
 ### Launch Options for Steam
 Default
 ```
