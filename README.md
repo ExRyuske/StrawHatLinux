@@ -1,18 +1,18 @@
 # StrawHatLinux
 My SteamOS configuration
-### Install (need to update)
+### Install
 ```
 passwd
 sudo steamos-readonly disable
-
+git clone -b steamos https://github.com/ExRyuske/StrawHatLinux.git
 chmod -R 777 StrawHatLinux/install.sh
 StrawHatLinux/install.sh
 ```
 
-### Update (need to update)
+### Update
 ```
 sudo steamos-readonly disable
-
+git clone -b steamos https://github.com/ExRyuske/StrawHatLinux.git
 chmod -R 777 StrawHatLinux/update.sh
 StrawHatLinux/update.sh
 ```
